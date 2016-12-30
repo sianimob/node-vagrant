@@ -7,7 +7,7 @@ app.set('port', process.env.PORT || 4000);
 
 app.get('/', function(req, res){
   res.type('text/plain');
-  res.send('HivePM')
+  res.send('Welcome to HivePM')
 })
 
 app.get('/about', function(req, res){
